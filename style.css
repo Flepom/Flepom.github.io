@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+* {
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgb(143, 187, 224), rgb(103, 182, 211), rgb(64, 175, 190), rgb(40, 167, 160), rgb(51, 157, 125));
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+
+nav img {
+    width: 16.172vw;
+}
+
+nav {
+    display: flex;
+    padding-top: 2.422vw;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+}
+
+a.nav-blog {
+    width: 5.313vw;
+    height: 4.609vw;
+    background: url("/moshi/images/navigation_new.png") 0vw 0vw no-repeat;
+    margin-left: 1.563vw;
+    text-indent: -781.172vw;
+    display: block;
+}
+
+a.nav-forum {
+    width: 6.484vw;
+    height: 4.609vw;
+    background: url("/moshi/images/navigation_new.png") -5.313vw 0vw no-repeat;
+    text-indent: -781.172vw;
+    display: block;
+}
+
+a.nav-blog {
+    width: 5.313vw;
+    height: 4.609vw;
+    background: url("/moshi/images/navigation_new.png") 0vw 0vw / 35.078vw no-repeat;
+    text-indent: -781.172vw;
+    display: block;
+}
+
+.left-side li {
+    list-style: none;
+}
+
+a.nav-forum {
+    width: 6.484vw;
+    height: 4.609vw;
+    background: url("/moshi/images/navigation_new.png") -5.313vw 0vw / 35.078vw no-repeat;
+    text-indent: -781.172vw;
+    display: block;
+}
+
+ul {
+    display: flex;
+    position: relative;
+}
+
+a.nav-help {
+    width: 5.469vw;
+    height: 4.609vw;
+    background: url("/moshi/images/navigation_new.png") -11.797vw 0vw / 35.078vw no-repeat;
+    text-indent: -781.172vw;
+    display: block;
+}
+
+a.nav-membership {
+    width: 10.625vw;
+    height: 4.609vw;
+    background: url("/moshi/images/navigation_new.png") -17.266vw 0vw / 35.078vw no-repeat;
+    text-indent: -781.172vw;
+    display: block;
+}
+
+a.nav-eshop {
+    width: 6.25vw;
+    height: 4.609vw;
+    background: url("/moshi/images/navigation_new.png") -27.734vw 0vw / 35.078vw no-repeat;
+    text-indent: -781.172vw;
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+.footer-next-back {
+    display: flex;
+    justify-content: space-between;
+}
+
+a:hover.nav-eshop {
+    background-position: -27.734vw -4.609vw;
+}
+
+a:hover.nav-membership {
+    background-position: -17.266vw -4.609vw;
+}
+
+a:hover.nav-help {
+    background-position: -11.797vw -4.609vw;
+}
+
+a:hover.nav-forum {
+    background-position: -5.313vw -4.609vw;
+}
+
+a:hover.nav-blog {
+    background-position: 0vw -4.609vw;
+}
+
+.\31 {
+    height: 14.219vw;
+    background: url("/Moshi/images/blog-page-sprites.png") left top / 234.35vw no-repeat;
+    width: 74.453vw;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 9.047vw auto 0vw;
+}
+
+div#navbar {
+    padding-left: 17.734vw;
+}
+
+.\32 {
+    background: url("/Moshi/images/blog-page-sprites.png") -74.531vw 0vw / 234.35vw repeat-y transparent;
+    display: flex;
+    padding-bottom: 4.141vw;
+}
+
+.\33 {
+    background: url("/Moshi/images/blog-page-sprites.png") -149.063vw bottom / 234.35vw no-repeat;
+    height: 4.688vw;
+    width: 74.531vw;
+}
+
+.bg {
+    width: 100%;
+    background: url("/moshi/images/blog-header-bg.png") left 0vw / 73.7vw no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.bg img {
+    width: 36.328vw;
+    user-select: none;
+    pointer-events: none;
+}
+
+a.backtoroom-widget {
+    background: url("/Moshi/images/Back_room.jpg") 0vw 0vw / 24.141vw no-repeat;
+    width: 24.141vw;
+    height: 4.609vw;
+    text-indent: -781.172vw;
+    display: block;
+}
+
+a.backtoroom-widget:hover {
+    background: url("/Moshi/images/Back_room_rollover.jpg") 0vw 0vw / 24.141vw no-repeat;
+}
+
+.left-side {
+    width: 47.969vw;
+    padding: 0vw 2.188vw;
+}
+
+a.latest-news.selected {
+    display: block;
+    text-indent: -781.172vw;
+    height: 5vw;
+    width: 10vw;
+    background: url("/moshi/images/categorisation-sprite.png") -9.219vw 0vw / 21.406vw no-repeat;
+}
+
+a.hints-and-tips {
+    display: block;
+    text-indent: -781.172vw;
+    height: 3.438vw;
+    width: 8.516vw;
+    background: url("/moshi/images/categorisation-sprite.png") 0vw -5.313vw / 21.406vw no-repeat;
+    position: absolute;
+    margin-left: -0.625vw;
+}
+
+a.hints-and-tips:hover {
+    height: 3.906vw;
+    width: 10vw;
+    background: url("/moshi/images/categorisation-sprite.png") -9.063vw -5.391vw / 21.406vw no-repeat;
+    margin-left: -1.328vw;
+    position: absolute;
+}
+
+.blog-article {
+    background: rgb(231, 241, 248);
+    margin-top: -1.25vw;
+    border-top-right-radius: 1.016vw;
+    border-bottom-right-radius: 1.016vw;
+    border-bottom-left-radius: 1.016vw;
+    width: 45.391vw;
+    padding: 1.25vw 1.172vw 0.078vw;
+}
+
+a.fun-stuff {
+    height: 3.438vw;
+    width: 7.891vw;
+    background: url("/moshi/images/categorisation-sprite.png") 0vw -9.297vw / 21.406vw no-repeat;
+    display: block;
+    text-indent: -781.172vw;
+    margin-left: 0.313vw;
+    position: absolute;
+    left: 17.891vw;
+}
+
+a.fun-stuff:hover {
+    height: 3.828vw;
+    width: 9.219vw;
+    background: url("/moshi/images/categorisation-sprite.png") -8.594vw -9.297vw / 21.406vw no-repeat;
+    left: 17.188vw;
+}
+
+a.puzzles {
+    left: 26.406vw;
+    height: 3.438vw;
+    width: 9.922vw;
+    background: url("/moshi/images/categorisation-sprite.png") 0vw -13.125vw / 21.406vw no-repeat;
+    display: block;
+    text-indent: -781.172vw;
+    position: absolute;
+}
+
+a.puzzles:hover {
+    left: 25.625vw;
+    height: 3.75vw;
+    width: 11.172vw;
+    background: url("/moshi/images/categorisation-sprite.png") -10.156vw -13.125vw / 21.406vw no-repeat;
+    position: absolute;
+}
+
+a.print-and-play {
+    height: 3.438vw;
+    width: 8.75vw;
+    background: url("/moshi/images/categorisation-sprite.png") 0vw -17.031vw / 21.406vw no-repeat;
+    left: 36.563vw;
+    display: block;
+    text-indent: -781.172vw;
+    position: absolute;
+}
+
+a.print-and-play:hover {
+    height: 4.844vw;
+    width: 9.766vw;
+    background: url("/moshi/images/categorisation-sprite.png") -9.375vw -16.953vw / 21.406vw no-repeat;
+    left: 35.781vw;
+}
+
+a.Back {
+    background: url("/Moshi/images/feed-pagination.png") 0vw 0vw / 27.344vw no-repeat;
+    display: block;
+    width: 6.016vw;
+    height: 2.109vw;
+    margin: 0.234vw 0.547vw 0.391vw 0vw;
+    text-indent: -781.172vw;
+}
+
+a.Next {
+    background: url("/Moshi/images/feed-pagination.png") -21.328vw 0vw / 27.344vw no-repeat;
+    display: block;
+    width: 6.016vw;
+    height: 2.109vw;
+    margin: 0.234vw 0.547vw 0.391vw 0vw;
+    text-indent: -781.172vw;
+}
+
+.back-next {
+    display: flex;
+    justify-content: space-between;
+}
+
+a.Back:hover {
+    background-position: 0vw -2.344vw;
+}
+
+a.Next:hover {
+    background-position: -21.328vw -2.344vw;
+}
+
+.article-preview {
+    display: flex;
+    border: 0.313vw solid rgb(180, 223, 241);
+    padding: 0.313vw;
+    border-radius: 1.094vw;
+    background-image: linear-gradient(rgb(207, 232, 245), rgb(212, 235, 247), rgb(218, 239, 248), rgb(223, 242, 250), rgb(229, 245, 252), rgb(234, 247, 253), rgb(239, 248, 254), rgb(243, 250, 255), rgb(247, 251, 255), rgb(250, 252, 255), rgb(253, 253, 255), rgb(255, 255, 255));
+    box-shadow: rgb(9, 103, 215) 0vw 0vw 0.938vw 0.078vw;
+    margin: 1.563vw 0vw;
+}
+
+.article-preview img {
+    border-radius: 1.094vw;
+    width: 17.734vw;
+}
+
+a.more {
+    display: block;
+    text-align: left;
+    text-indent: -781.172vw;
+    background: transparent url(/Moshi/images/button-sprites.png) no-repeat left -4.063vw;
+    width: 9.766vw;
+    height: 4.141vw;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-size: 28.125vw;
+}
+
+.info {
+    padding-left: 1.172vw;
+    position: relative;
+}
+
+h3.title {
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100;
+    font-size: 2.188vw;
+    color: #1a4bba;
+    text-shadow: 0.156vw 0.156vw #fff;
+}
+
+p.prev-p {
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+    font-size: 1.25vw;
+}
+
+a.more:hover {
+    background-position: left 0.391vw;
+}
+
+.info-without-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a.comments-pre {
+    margin-top: 2.031vw;
+    color: #d66921;
+    z-index: 99;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.25vw;
+    width: fit-content;
+}
+
+a.comments-pre:hover {
+    text-decoration: none;
+}
+
+.right-side {
+    margin-top: -0.703vw;
+}
