@@ -28,7 +28,7 @@ nav {
 a.nav-blog {
     width: 5.313vw;
     height: 4.609vw;
-    background: url("/moshi/images/navigation_new.png") 0vw 0vw no-repeat;
+    background: url("images/navigation_new.png") 0vw 0vw no-repeat;
     margin-left: 1.563vw;
     text-indent: -781.172vw;
     display: block;
@@ -37,7 +37,7 @@ a.nav-blog {
 a.nav-forum {
     width: 6.484vw;
     height: 4.609vw;
-    background: url("/moshi/images/navigation_new.png") -5.313vw 0vw no-repeat;
+    background: url("images/navigation_new.png") -5.313vw 0vw no-repeat;
     text-indent: -781.172vw;
     display: block;
 }
@@ -45,7 +45,7 @@ a.nav-forum {
 a.nav-blog {
     width: 5.313vw;
     height: 4.609vw;
-    background: url("/moshi/images/navigation_new.png") 0vw 0vw / 35.078vw no-repeat;
+    background: url("images/navigation_new.png") 0vw 0vw / 35.078vw no-repeat;
     text-indent: -781.172vw;
     display: block;
 }
@@ -57,7 +57,7 @@ a.nav-blog {
 a.nav-forum {
     width: 6.484vw;
     height: 4.609vw;
-    background: url("/moshi/images/navigation_new.png") -5.313vw 0vw / 35.078vw no-repeat;
+    background: url("images/navigation_new.png") -5.313vw 0vw / 35.078vw no-repeat;
     text-indent: -781.172vw;
     display: block;
 }
@@ -70,7 +70,7 @@ ul {
 a.nav-help {
     width: 5.469vw;
     height: 4.609vw;
-    background: url("/moshi/images/navigation_new.png") -11.797vw 0vw / 35.078vw no-repeat;
+    background: url("images/navigation_new.png") -11.797vw 0vw / 35.078vw no-repeat;
     text-indent: -781.172vw;
     display: block;
 }
@@ -78,7 +78,7 @@ a.nav-help {
 a.nav-membership {
     width: 10.625vw;
     height: 4.609vw;
-    background: url("/moshi/images/navigation_new.png") -17.266vw 0vw / 35.078vw no-repeat;
+    background: url("images/navigation_new.png") -17.266vw 0vw / 35.078vw no-repeat;
     text-indent: -781.172vw;
     display: block;
 }
@@ -86,7 +86,7 @@ a.nav-membership {
 a.nav-eshop {
     width: 6.25vw;
     height: 4.609vw;
-    background: url("/moshi/images/navigation_new.png") -27.734vw 0vw / 35.078vw no-repeat;
+    background: url("images/navigation_new.png") -27.734vw 0vw / 35.078vw no-repeat;
     text-indent: -781.172vw;
     display: block;
 }
@@ -122,7 +122,7 @@ a:hover.nav-blog {
 
 .\31 {
     height: 14.219vw;
-    background: url("/Moshi/images/blog-page-sprites.png") left top / 234.35vw no-repeat;
+    background: url("images/blog-page-sprites.png") left top / 234.35vw no-repeat;
     width: 74.453vw;
 }
 
@@ -138,20 +138,20 @@ div#navbar {
 }
 
 .\32 {
-    background: url("/Moshi/images/blog-page-sprites.png") -74.531vw 0vw / 234.35vw repeat-y transparent;
+    background: url("images/blog-page-sprites.png") -74.531vw 0vw / 234.35vw repeat-y transparent;
     display: flex;
     padding-bottom: 4.141vw;
 }
 
 .\33 {
-    background: url("/Moshi/images/blog-page-sprites.png") -149.063vw bottom / 234.35vw no-repeat;
+    background: url("images/blog-page-sprites.png") -149.063vw bottom / 234.35vw no-repeat;
     height: 4.688vw;
     width: 74.531vw;
 }
 
 .bg {
     width: 100%;
-    background: url("/moshi/images/blog-header-bg.png") left 0vw / 73.7vw no-repeat;
+    background: url("images/blog-header-bg.png") left 0vw / 73.7vw no-repeat;
     display: flex;
     justify-content: center;
 }
@@ -163,7 +163,7 @@ div#navbar {
 }
 
 a.backtoroom-widget {
-    background: url("/Moshi/images/Back_room.jpg") 0vw 0vw / 24.141vw no-repeat;
+    background: url("images/Back_room.jpg") 0vw 0vw / 24.141vw no-repeat;
     width: 24.141vw;
     height: 4.609vw;
     text-indent: -781.172vw;
@@ -171,7 +171,7 @@ a.backtoroom-widget {
 }
 
 a.backtoroom-widget:hover {
-    background: url("/Moshi/images/Back_room_rollover.jpg") 0vw 0vw / 24.141vw no-repeat;
+    background: url("images/Back_room_rollover.jpg") 0vw 0vw / 24.141vw no-repeat;
 }
 
 .left-side {
@@ -184,7 +184,7 @@ a.latest-news.selected {
     text-indent: -781.172vw;
     height: 5vw;
     width: 10vw;
-    background: url("/moshi/images/categorisation-sprite.png") -9.219vw 0vw / 21.406vw no-repeat;
+    background: url("images/categorisation-sprite.png") -9.219vw 0vw / 21.406vw no-repeat;
 }
 
 a.hints-and-tips {
@@ -192,7 +192,7 @@ a.hints-and-tips {
     text-indent: -781.172vw;
     height: 3.438vw;
     width: 8.516vw;
-    background: url("/moshi/images/categorisation-sprite.png") 0vw -5.313vw / 21.406vw no-repeat;
+    background: url("images/categorisation-sprite.png") 0vw -5.313vw / 21.406vw no-repeat;
     position: absolute;
     margin-left: -0.625vw;
 }
@@ -200,7 +200,7 @@ a.hints-and-tips {
 a.hints-and-tips:hover {
     height: 3.906vw;
     width: 10vw;
-    background: url("/moshi/images/categorisation-sprite.png") -9.063vw -5.391vw / 21.406vw no-repeat;
+    background: url("images/categorisation-sprite.png") -9.063vw -5.391vw / 21.406vw no-repeat;
     margin-left: -1.328vw;
     position: absolute;
 }
@@ -218,7 +218,7 @@ a.hints-and-tips:hover {
 a.fun-stuff {
     height: 3.438vw;
     width: 7.891vw;
-    background: url("/moshi/images/categorisation-sprite.png") 0vw -9.297vw / 21.406vw no-repeat;
+    background: url("images/categorisation-sprite.png") 0vw -9.297vw / 21.406vw no-repeat;
     display: block;
     text-indent: -781.172vw;
     margin-left: 0.313vw;
@@ -229,7 +229,7 @@ a.fun-stuff {
 a.fun-stuff:hover {
     height: 3.828vw;
     width: 9.219vw;
-    background: url("/moshi/images/categorisation-sprite.png") -8.594vw -9.297vw / 21.406vw no-repeat;
+    background: url("images/categorisation-sprite.png") -8.594vw -9.297vw / 21.406vw no-repeat;
     left: 17.188vw;
 }
 
@@ -237,7 +237,7 @@ a.puzzles {
     left: 26.406vw;
     height: 3.438vw;
     width: 9.922vw;
-    background: url("/moshi/images/categorisation-sprite.png") 0vw -13.125vw / 21.406vw no-repeat;
+    background: url("images/categorisation-sprite.png") 0vw -13.125vw / 21.406vw no-repeat;
     display: block;
     text-indent: -781.172vw;
     position: absolute;
@@ -247,14 +247,14 @@ a.puzzles:hover {
     left: 25.625vw;
     height: 3.75vw;
     width: 11.172vw;
-    background: url("/moshi/images/categorisation-sprite.png") -10.156vw -13.125vw / 21.406vw no-repeat;
+    background: url("images/categorisation-sprite.png") -10.156vw -13.125vw / 21.406vw no-repeat;
     position: absolute;
 }
 
 a.print-and-play {
     height: 3.438vw;
     width: 8.75vw;
-    background: url("/moshi/images/categorisation-sprite.png") 0vw -17.031vw / 21.406vw no-repeat;
+    background: url("images/categorisation-sprite.png") 0vw -17.031vw / 21.406vw no-repeat;
     left: 36.563vw;
     display: block;
     text-indent: -781.172vw;
@@ -264,12 +264,12 @@ a.print-and-play {
 a.print-and-play:hover {
     height: 4.844vw;
     width: 9.766vw;
-    background: url("/moshi/images/categorisation-sprite.png") -9.375vw -16.953vw / 21.406vw no-repeat;
+    background: url("images/categorisation-sprite.png") -9.375vw -16.953vw / 21.406vw no-repeat;
     left: 35.781vw;
 }
 
 a.Back {
-    background: url("/Moshi/images/feed-pagination.png") 0vw 0vw / 27.344vw no-repeat;
+    background: url("images/feed-pagination.png") 0vw 0vw / 27.344vw no-repeat;
     display: block;
     width: 6.016vw;
     height: 2.109vw;
@@ -278,7 +278,7 @@ a.Back {
 }
 
 a.Next {
-    background: url("/Moshi/images/feed-pagination.png") -21.328vw 0vw / 27.344vw no-repeat;
+    background: url("images/feed-pagination.png") -21.328vw 0vw / 27.344vw no-repeat;
     display: block;
     width: 6.016vw;
     height: 2.109vw;
@@ -318,7 +318,7 @@ a.more {
     display: block;
     text-align: left;
     text-indent: -781.172vw;
-    background: transparent url(/Moshi/images/button-sprites.png) no-repeat left -4.063vw;
+    background: transparent url(images/button-sprites.png) no-repeat left -4.063vw;
     width: 9.766vw;
     height: 4.141vw;
     position: absolute;
